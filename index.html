@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Animated Toast Notification</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="panel">
+      <h3>Toast Notifications</h3>
+      <p>Choose a notification type</p>
+
+      <div class="actions">
+        <button class="success" onclick="showToast('success')">Success</button>
+        <button class="error" onclick="showToast('error')">Error</button>
+        <button class="warning" onclick="showToast('warning')">Warning</button>
+      </div>
+    </div>
+
+    <div class="stack" id="stack"></div>
+  </body>
+</html>
