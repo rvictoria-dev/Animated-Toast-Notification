@@ -70,7 +70,7 @@ Removal: The toast is removed with `remove()` when the user clicks the X or afte
 ### 🖿 Project structure
 
 ```
-Animated-Toast-Notification/
+animated-toast-notification/
 ├── index.html
 ├── style.css
 ├── script.js
